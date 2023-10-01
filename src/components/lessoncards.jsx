@@ -7,7 +7,7 @@ export default function LessonCards({img, text, path}) {
             <div>
                 <img className='rounded-t-[15px]' src={img} alt="" />
             </div>
-            <div className='p-6 box-border'>
+            <div className='py-[5px] px-[25px] box-border'>
               <div className='min-h-[4em] flex items-center relative '>
                 <p className='font-[500] text-[#a7a2a2]'>{text}</p>
               </div>
