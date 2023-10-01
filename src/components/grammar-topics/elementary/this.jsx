@@ -49,7 +49,7 @@ export default function ThisThatThose() {
             </div>
             <h2 className='text-[1.6rem] font-bold py-[10px] my-5 text-[#1a8ec1]'>This/these= here, that/those= there</h2>
             <h1 className='text-[25px] py-[10px] my-5 text-[#1a8ec1]'>1-Mashq</h1>
-            <p className='bg-[#dbdbdb88] border-2 border-s border-black p-3 inline-block rounded-[10px] font-bold'>Gaplarni this, that, these, those bilan to'ldirib chiqing .</p>
+            <p className='bg-[#f6f6f6] border-[1px] border-s border-[#ccc] p-[8px] inline-block rounded-[2px] font-bold'>Gaplarni this, that, these, those bilan to'ldirib chiqing .</p>
             <div className='flex my-5 items-center gap-3'>
 
               {/* Question 1 */}
