@@ -50,7 +50,7 @@ export default function ToBe() {
             </div>
             <h2 className='text-[25px] py-[10px] my-5 text-[#1a8ec1]'>‘TO BE’ NING PRESENT SIMPLE SHAKLI – AM/IS/ARE</h2>
             <h2 className='text-[25px] py-[10px] my-5 text-[#1a8ec1]'>1- MASHQLAR</h2>
-            <p className='bg-[#dbdbdb88] border-2 border-s border-black p-3 inline-block rounded-[10px] font-bold'>Quyidagi bo'sh joylarga "to be" ning to'g'ri present simple shaklini tanlang.</p>
+            <p className='bg-[#f6f6f6] border-[1px] border-s border-[#ccc] p-[8px] inline-block rounded-[2px] font-bold'>Quyidagi bo'sh joylarga "to be" ning to'g'ri present simple shaklini tanlang.</p>
 
             {/* Question 1 */}
             <div className='flex my-5 items-center gap-3'>
