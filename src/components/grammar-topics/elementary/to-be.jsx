@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
-import tobe from './to-be.webp'
-import tobe2 from './to-be2.webp'
+import tobe from '../../../assets/grammar/elementary/topics/present-simple-of-tobe.webp'
+import tobe2 from '../../../assets/grammar/elementary/topics/different-uses-of-be.webp'
 
 export default function ToBe() {
 
@@ -28,8 +28,7 @@ export default function ToBe() {
   return (
     <>
       <main>
-        <h1 className='text-center text-white text-[25px] font-bold py-[10px] my-5 bg-[#1a8ec1]'>‘TO BE’ NING PRESENT SIMPLE SHAKLI – AM/IS/ARE
-</h1>
+        <h1 className='text-center text-white text-[25px] font-bold py-[10px] my-5 bg-[#1a8ec1]'>‘TO BE’ NING PRESENT SIMPLE SHAKLI – AM/IS/ARE</h1>
         <div className='container'>
           <ul className="flex border-b-2 border-l-0 border-s border-gray-500 flex-wrap text-sm font-medium text-center text-gray-500 dark:border-gray-700 dark:text-gray-400">
               <li className="mr-2">
@@ -40,6 +39,7 @@ export default function ToBe() {
               </li>
           </ul>
 
+          {/* QUESTIONS PART */}
           <div className={`my-[10px] ${hidden2}`}>
             <div className='flex items-center justify-end'>
               <p className='font-[300] text-gray-500 mr-2 text text-[25px] items-center'>MASHQLAR: </p>
@@ -48,8 +48,8 @@ export default function ToBe() {
               <Link className='bg-[#1a8ec1] mr-5 w-[50px] h-[40px] flex justify-center items-center text-white rounded-[5px]'>3</Link>
               <Link className='bg-[#1a8ec1] mr-5 w-[50px] h-[40px] flex justify-center items-center text-white rounded-[5px]'>4</Link>
             </div>
-            <h1 className='text-[25px] py-[10px] my-5 text-[#1a8ec1]'>‘TO BE’ NING PRESENT SIMPLE SHAKLI – AM/IS/ARE</h1>
-            <h1 className='text-[25px] py-[10px] my-5 text-[#1a8ec1]'>1- MASHQLAR</h1>
+            <h2 className='text-[25px] py-[10px] my-5 text-[#1a8ec1]'>‘TO BE’ NING PRESENT SIMPLE SHAKLI – AM/IS/ARE</h2>
+            <h2 className='text-[25px] py-[10px] my-5 text-[#1a8ec1]'>1- MASHQLAR</h2>
             <p className='bg-[#dbdbdb88] border-2 border-s border-black p-3 inline-block rounded-[10px] font-bold'>Quyidagi bo'sh joylarga "to be" ning to'g'ri present simple shaklini tanlang.</p>
 
             {/* Question 1 */}
@@ -219,7 +219,7 @@ export default function ToBe() {
               </select>
               <p className='text-[19px]'>30 years old.</p>
             </div>
- 
+
             {/* Question 10 */}
             <div className='flex my-5 items-center gap-3'>
               <span className='bg-[#1a8ec1] text-white w-[30px] h-[30px] flex justify-center items-center p-5 rounded-full'>10</span>
@@ -244,84 +244,87 @@ export default function ToBe() {
             </button>
           </div>
 
+          {/* INFO */}
           <div className={`my-10 ${hidden}`}>
-            <h1 className='text-[30px] py-[10px] my-5 text-[#1a8ec1]'><b><i>be</i> ning Present Simple shakli</b></h1>
+
+            {/* TOBE ning Present Simple shakli */}
+            <h2 className='text-[1.6rem] font-bold text-[#1a8ec1]'><b><i>be</i> ning Present Simple shakli</b></h2>
 
             <div className='w-[55%]'>
               <img className='w-[100%]' src={tobe} alt="..." />
             </div>
 
             <div className='info my-10'>
-              <p className='text-[25px] mb-5'><b>be</b> fe'lining Present Simple-da 3 ta shakli bor:</p>
+              <p className='text-[25px] mb-4'><b>be</b> fe'lining Present Simple-da 3 ta shakli bor:</p>
 
-              <ul className='list-disc pl-5 text-[20px] mb-5'>
+              <ul className='list-disc pl-5 text-[20px] mb-[70px]'>
                 <li><i>I <span className='text-[#ec6825]'><b>am</b></span></i></li>
                 <li><i>He/She/It <span className='text-[#ec6825]'><b>is</b></span></i></li>
                 <li><i>we/You/They <span className='text-[#ec6825]'><b>are</b></span></i></li>
               </ul>
 
-              <h1 className='text-[30px] py-[10px] my-5 text-[#1a8ec1]'><b>they</b>= odamlar va narsalar</h1>
 
-              <p className='text-[25px] mb-5'>Biz <b>he</b>-ni erkaklar uchun, <b>she</b>-ni ayollar uchun, va <b>it</b>-ni narsalar uchun ishlatamiz.</p>
+              <h2 className='text-[1.6rem] font-bold text-[#1a8ec1]'><b>they</b>= odamlar va narsalar</h2>
+              <p className='text-[25px] mb-4'>Biz <b>he</b>-ni erkaklar uchun, <b>she</b>-ni ayollar uchun, va <b>it</b>-ni narsalar uchun ishlatamiz.</p>
 
-              <ul className='list-disc pl-5 text-[20px] mb-5'>
+              <ul className='list-disc pl-5 text-[20px] mb-[30px]'>
                 <li><i><b className='text-[#ec6825]'>He</b>'s little boy</i></li>
                 <li><i><b className='text-[#ec6825]'>She</b>'s beautiful</i></li>
                 <li><i>I like this TV. <span className='text-[#ec6825]'><b>It's</b></span> very big</i></li>
               </ul>
 
-              <p className='text-[25px] mb-5'>Biz <b>they</b>-ni odamlar va narsalar uchun foydalanamiz.</p>
+              <p className='text-[25px] mb-4'>Biz <b>they</b>-ni odamlar va narsalar uchun foydalanamiz.</p>
 
-              <ul className='list-disc pl-5 text-[20px] mb-5'>
+              <ul className='list-disc pl-5 text-[20px] mb-[70px]'>
                 <li><i>I love Sara and Jonas. <span className='text-[#ec6825]'><b>They</b></span> are my friend</i></li>
                 <li><i>I love these chairs. <span className='text-[#ec6825]'><b>They</b></span> are very beautiful</i></li>
               </ul>
 
-              <h1 className='text-[30px] py-[10px] my-5 text-[#1a8ec1]'>Subject-ni unutib qoldirmang</h1>
+              <h2 className='text-[1.6rem] font-bold text-[#1a8ec1]'>Subject-ni unutib qoldirmang</h2>
 
-              <p className='text-[25px] mb-5'>Biz <b>they</b>-ni odamlar va narsalar uchun foydalanamiz.</p>
+              <p className='text-[25px] mb-4'>Biz <b>they</b>-ni odamlar va narsalar uchun foydalanamiz.</p>
 
-              <ul className='list-disc pl-5 text-[20px] mb-5'>
+              <ul className='list-disc pl-5 text-[20px] mb-[70px]'>
                 <li>It is cold. (NOT<del> Is cold.)</del></li>
                 <li>Sally is a wonderful woman. (NOT<del> s a wonderful woman.)</del></li>
               </ul>
 
-              <h1 className='text-[30px] py-[10px] my-5 text-[#1a8ec1]'>Qisqartmalar yoki qisqa shakllari</h1>
+              <h2 className='text-[1.6rem] font-bold text-[#1a8ec1]'>Qisqartmalar yoki qisqa shakllari</h2>
 
-              <p className='text-[25px] mb-5'>Biz <b>‘m,</b> <b>‘s</b> va <b>‘re</b>-ni (<b>I, you, he, va hkz.</b>) kabi kishilik olmoshlari uchun ishlatamiz </p>
+              <p className='text-[25px] mb-4'>Biz <b>‘m,</b> <b>‘s</b> va <b>‘re</b>-ni (<b>I, you, he, va hkz.</b>) kabi kishilik olmoshlari uchun ishlatamiz </p>
 
-              <ul className='list-disc pl-5 text-[20px] mb-5'>
+              <ul className='list-disc pl-5 text-[20px] mb-[70px]'>
                 <li><i><b className='text-[#ec6825]'>I'm</b> sad</i></li>
                 <li><i><b className='text-[#ec6825]'>You're</b> tired</i></li>
                 <li><i><b className='text-[#ec6825]'>She's</b> from Scotland</i></li>
               </ul>
 
-              <p className='text-[25px] mb-5'>Ammo <b>‘s</b> ni ismlar bilan ham ishlata olamiz.</p>
+              <p className='text-[25px] mb-4'>Ammo <b>‘s</b> ni ismlar bilan ham ishlata olamiz.</p>
 
-              <ul className='list-disc pl-5 text-[20px] mb-5'>
+              <ul className='list-disc pl-5 text-[20px] mb-[70px]'>
                 <li><i><b className='text-[#ec6825]'>Laura’s </b> beautiful</i></li>
                 <li><i><b className='text-[#ec6825]'>London’s </b> an expensive city. </i></li>
               </ul>
 
-              <h1 className='text-[30px] py-[10px] my-5 text-[#1a8ec1]'>Qisqartmalar yoki qisqa shakllari</h1>
+              <h2 className='text-[1.6rem] font-bold text-[#1a8ec1]'>Qisqartmalar yoki qisqa shakllari</h2>
 
-              <p className='text-[25px] mb-5'>Biz <b>qisqartmalarni</b> faqatgina <b>inkor shakldagi qisqa javoblarda</b> ishlata olamiz. Darak gap shaklidagi qisqa javoblarda emas.</p>
+              <p className='text-[25px] mb-4'>Biz <b>qisqartmalarni</b> faqatgina <b>inkor shakldagi qisqa javoblarda</b> ishlata olamiz. Darak gap shaklidagi qisqa javoblarda emas.</p>
 
-              <ul className='list-disc pl-5 text-[20px] mb-5'>
+              <ul className='list-disc pl-5 text-[20px] mb-[70px]'>
                 <li>Yes, <b className='text-[#ec6825]'>I am</b>. (NOT<del> Yes, I'm.)</del></li>
                 <li>Yes, She <b className='text-[#ec6825]'>is</b>. (NOT<del> Yes, She's.)</del></li>
                 <li>Yes, They <b className='text-[#ec6825]'>are</b>. (NOT<del> Yes, They're.)</del></li>
               </ul>
 
-              <h1 className='text-[30px] py-[10px] my-5 text-[#1a8ec1]'><b>be</b>- present simple-da foydalanilishi</h1>
+              <h2 className='text-[1.6rem] font-bold text-[#1a8ec1]'><b>be</b>- present simple-da foydalanilishi</h2>
               
               <div className='w-[55%]'>
                 <img className='w-[100%]' src={tobe2} alt="..." />
               </div>
               
-              <p className='text-[25px] mb-5'>Biz quyida keltirilgan narsalar haqida gaplashayotganimizda <b>be</b> fe'lini ishlatamiz:</p>
+              <p className='text-[25px] mb-4'>Biz quyida keltirilgan narsalar haqida gaplashayotganimizda <b>be</b> fe'lini ishlatamiz:</p>
               
-              <ul className='list-disc pl-5 text-[20px] mb-5'>
+              <ul className='list-disc pl-5 text-[20px] mb-[70px]'>
                 <li><b>Biz kimmiz:</b> I <i className='text-[#ec6825]'>'m Steven, and this <i className='text-[#ec6825]'>is</i></i> Isabella.</li>
                 <li><b>Yoshimiz:</b> I <i className='text-[#ec6825]'>'m Steven, and this <i className='text-[#ec6825]'>is</i></i> Isabella.</li>
                 <li><b>Kasbimiz:</b> I <i className='text-[#ec6825]'>'m Steven, and this <i className='text-[#ec6825]'>is</i></i> Isabella.</li>
