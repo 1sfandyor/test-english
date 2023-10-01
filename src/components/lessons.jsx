@@ -24,7 +24,7 @@ export default function Lessons() {
 
             <TopicCards img={exams} topic={'Imtihonlar'} desc={"Bizning amaliy materiallarimiz yordamida imtihon topshirish ko'nikmalaringini oshiring va yaxshi natijalarga erishing. Test-English sizga Cambridge KEY, Cambridge Preliminary, Cambridge First, IELTS yoki TOEFL iBT imtihonlarida yordam beradi."} color={'50af31'} path={'exams'} />
 
-            <TopicCards img={leveltest} topic={'Darajani aniqlash testi'} desc={"Darajangi qandayligini bilmasangiz havaotir olamang, siz ushbu online testni topshirib ko'rishingiz mumkin. Bu yerda 60-ta ko'p tanlovli savollar mavjuda va hech qanday vaqt belgilanmangan. Testni tugatganingizdan so'ng javoblarni ko'rishingiz mumkin."} color={'50af31'} path={'leveltest'} />
+            <TopicCards img={leveltest} topic={'Daraja testi'} desc={"If you are not sure about your level, don't worry, you can take this online test. There are 60 multiple-choice questions and there is no time limit. You will be able to see the answers when you finish the test."} color={'50af31'} path={'leveltest'} />
 
         </div>
     </div>
