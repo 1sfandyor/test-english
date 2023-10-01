@@ -188,8 +188,8 @@ export default function ToBe() {
               <p className='text-[19px]'>A: Hello, Maria. How </p>
               <select className='border-l-[1px] border-t-[1px] border-b-2 px-3 border-r-2 border-s border-[grey] bg-white'>
                 <option value=""></option>
-                <option value="is">are</option>
-                <option value="are">am</option>
+                <option value="are">are</option>
+                <option value="am">am</option>
               </select>
               <p className='text-[19px]'>you?</p>
               <p className='text-[19px]'>B:</p>
