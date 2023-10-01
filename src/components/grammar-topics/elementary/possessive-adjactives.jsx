@@ -229,7 +229,7 @@ export default function ThisThatThose() {
 
               {/* With a noun or without a noun */}
               <h2 className='text-[1.6rem] text-[#1a8ec1]'><b>it/its</b> narsalar uchun va <b>they/their</b> odamlar yoki narsalar uchun ishlatiladi.</h2>
-              <p className='text-[20px] mb-4'>Biz <b>he-his</b>ni va <b>she-her</b>ni insonlar uchun va <b>it-its</b>ni narsalar uchun ishlatamiz. Ammo ko'plikda <b>they-their</b>ni odamlar uchun ham naarsalar uchun ham ishlatamiz.</p>
+              <p className='text-[20px] mb-4'>Biz <b>he-his</b>ni va <b>she-her</b>ni insonlar uchun va <b>it-its</b>ni narsalar uchun ishlatamiz. Ammo ko'plikda <b>they-their</b>ni odamlar uchun ham narsalar uchun ham ishlatamiz.</p>
 
               <ul className='list-disc pl-5 text-[20px] mb-[70px]'>
                 <li><i>The hotel has <b className='text-[#ec6825]'>its</b> own spa. <b className='text-[#ec6825]'>It</b> is a relaxing place.</i></li>
