@@ -1,5 +1,5 @@
 import TopicCards from "../components/topic-cards"
-import grammer from '../assets/grammer.webp'
+import grammar from '../assets/grammar.webp'
 import listening from '../assets/listening.webp'
 import reading from '../assets/reading.webp'
 import useofenglish from '../assets/useofenglish.webp'
@@ -12,7 +12,7 @@ export default function Lessons() {
     <div className='container2 mt-10'>
         <h2 className='text-center mb-10 text-[35px] font-bold'>Bugun nima <span className='text-[40px] text-[#50af31]'>o&apos;rganmoqchisiz?</span></h2>
         <div className='flex justify-between items-center flex-wrap'>
-            <TopicCards img={grammer} topic={'Grammer Lesson'} desc={'Study the grammar lessons that are typically included in each level: A1, A2, B1, B1+, B2. There are three or more exercises and an explanation in each lesson, and feedback for every single question!'} color={'1a8ec1'} path={'grammer'} />
+            <TopicCards img={grammar} topic={'Grammar Lesson'} desc={'Study the grammar lessons that are typically included in each level: A1, A2, B1, B1+, B2. There are three or more exercises and an explanation in each lesson, and feedback for every single question!'} color={'1a8ec1'} path={'grammar'} />
 
             <TopicCards img={listening} topic={'Listening Lesson'} desc={'Improve your listening skills by practicing with audio and video tests. There are tests for each level: A1, A2, B1, B1+, B2. You will be able to see the transcription of the audio after you submit your answers.'} color={'fecc00'} path={'listening'} />
 

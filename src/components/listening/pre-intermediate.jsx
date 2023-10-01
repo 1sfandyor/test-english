@@ -29,8 +29,8 @@ export default function LisPreIntermediate() {
 </h1>
         <div className='container'>
             <div className='card-wrapper flex justify-around items-center flex-wrap gap-y-5 pb-[20px]'>
-                <LessonCards img={p1} text={"Asking questions in English – Question forms"} path={'grammer/a1'}/>
-                <LessonCards img={p2} text={"Subject questions, questions with preposition"} path={'grammer/a2'}/>
+                <LessonCards img={p1} text={"Asking questions in English – Question forms"} path={'grammar/a1'}/>
+                <LessonCards img={p2} text={"Subject questions, questions with preposition"} path={'grammar/a2'}/>
                 <LessonCards img={p3} text={'Present simple vs present continuous'} path={''}/>
                 <LessonCards img={p4} text={'Past simple – Form and use'} path={''} />
                 <LessonCards img={p5} text={'Past continuous and past simple'} path={''} />

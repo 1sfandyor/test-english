@@ -10,14 +10,14 @@ import i7 from '../../assets/useofenglish/intermediate/i7.jpg'
 import i8 from '../../assets/useofenglish/intermediate/i8.webp'
 import i9 from '../../assets/useofenglish/intermediate/i9.webp'
 
-export default function UsIntermediate() {
+export default function UseIntermediate() {
   return (
     <div>
         <h1 className='text-center text-white text-[25px] font-bold py-[10px] my-5 bg-[#ec6825]'>B1 USE OF ENGLISH TESTS</h1>
         <div className='container'>
             <div className='card-wrapper flex justify-around items-center flex-wrap gap-y-5 pb-[20px]'>
-                <LessonCards img={i1} text={"Present simple forms of 'to be' – am/is/are"} path={'grammer/a1'}/>
-                <LessonCards img={i2} text={"This, that, these, those"} path={'grammer/a2'}/>
+                <LessonCards img={i1} text={"Present simple forms of 'to be' – am/is/are"} path={'grammar/a1'}/>
+                <LessonCards img={i2} text={"This, that, these, those"} path={'grammar/a2'}/>
                 <LessonCards img={i3} text={'Possessive adjectives and subject pronouns (I/my, you/your, etc.)'} path={''}/>
                 <LessonCards img={i4} text={'A/an, plurals – singular and plural forms'} path={''} />
                 <LessonCards img={i5} text={'Adjectives – old, interesting, expensive, etc.'} path={''} />

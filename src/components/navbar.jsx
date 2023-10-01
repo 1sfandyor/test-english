@@ -10,7 +10,7 @@ export default function Navbar() {
                 <img className='w-full' src={logo} alt="testenglish.com" />
             </Link>
             <ul className='flex gap-10 text-white font-bold text-[1em]'>
-                <li><Link to={'/grammer'}>Grammar</Link></li>
+                <li><Link to={'/grammar'}>Grammar</Link></li>
                 <li><Link to={'/listening'}>Listening</Link></li>
                 <li><Link to={'/reading'}>Reading</Link></li>
                 <li><Link to={'/useofenglish'}>Ingliz tilidan foydalanish</Link></li>

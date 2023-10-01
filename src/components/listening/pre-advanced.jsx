@@ -1,33 +1,33 @@
 import React from 'react'
 import LessonCards from '../lessoncards'
-import ad1 from '../../assets/listening/pre-advenced/ad1.webp'
-import ad2 from '../../assets/listening/pre-advenced/ad2.webp'
-import ad3 from '../../assets/listening/pre-advenced/ad3.webp'
-import ad4 from '../../assets/listening/pre-advenced/ad4.webp'
-import ad5 from '../../assets/listening/pre-advenced/ad5.webp'
-import ad6 from '../../assets/listening/pre-advenced/ad6.webp'
-import ad7 from '../../assets/listening/pre-advenced/ad7.webp'
-import ad8 from '../../assets/listening/pre-advenced/ad8.webp'
-import ad9 from '../../assets/listening/pre-advenced/ad9.jpg'
-import ad10 from '../../assets/listening/pre-advenced/ad10.webp'
-import ad11 from '../../assets/listening/pre-advenced/ad11.webp'
-import ad12 from '../../assets/listening/pre-advenced/ad12.webp'
-import ad13 from '../../assets/listening/pre-advenced/ad13.webp'
-import ad14 from '../../assets/listening/pre-advenced/ad14.webp'
-import ad15 from '../../assets/listening/pre-advenced/ad15.webp'
-import ad16 from '../../assets/listening/pre-advenced/ad16.webp'
-import ad17 from '../../assets/listening/pre-advenced/ad17.jpg'
-import ad18 from '../../assets/listening/pre-advenced/ad18.jpg'
-import ad19 from '../../assets/listening/pre-advenced/ad19.webp'
+import ad1 from '../../assets/listening/pre-advanced/ad1.webp'
+import ad2 from '../../assets/listening/pre-advanced/ad2.webp'
+import ad3 from '../../assets/listening/pre-advanced/ad3.webp'
+import ad4 from '../../assets/listening/pre-advanced/ad4.webp'
+import ad5 from '../../assets/listening/pre-advanced/ad5.webp'
+import ad6 from '../../assets/listening/pre-advanced/ad6.webp'
+import ad7 from '../../assets/listening/pre-advanced/ad7.webp'
+import ad8 from '../../assets/listening/pre-advanced/ad8.webp'
+import ad9 from '../../assets/listening/pre-advanced/ad9.jpg'
+import ad10 from '../../assets/listening/pre-advanced/ad10.webp'
+import ad11 from '../../assets/listening/pre-advanced/ad11.webp'
+import ad12 from '../../assets/listening/pre-advanced/ad12.webp'
+import ad13 from '../../assets/listening/pre-advanced/ad13.webp'
+import ad14 from '../../assets/listening/pre-advanced/ad14.webp'
+import ad15 from '../../assets/listening/pre-advanced/ad15.webp'
+import ad16 from '../../assets/listening/pre-advanced/ad16.webp'
+import ad17 from '../../assets/listening/pre-advanced/ad17.jpg'
+import ad18 from '../../assets/listening/pre-advanced/ad18.jpg'
+import ad19 from '../../assets/listening/pre-advanced/ad19.webp'
 
-export default function LisPreAdvenced() {
+export default function LisPreAdvanced() {
   return (
     <div>
         <h1 className='text-center text-white text-[25px] font-bold py-[10px] my-5 bg-[#fecc00]'>B2 LISTENING TESTS</h1>
         <div className='container'>
             <div className='card-wrapper flex justify-around items-center flex-wrap gap-y-5 pb-[20px]'>
-                <LessonCards img={ad1} text={"Present simple forms of 'to be' – am/is/are"} path={'grammer/a1'}/>
-                <LessonCards img={ad2} text={"This, that, these, those"} path={'grammer/a2'}/>
+                <LessonCards img={ad1} text={"Present simple forms of 'to be' – am/is/are"} path={'grammar/a1'}/>
+                <LessonCards img={ad2} text={"This, that, these, those"} path={'grammar/a2'}/>
                 <LessonCards img={ad3} text={'Possessive adjectives and subject pronouns (I/my, you/your, etc.)'} path={''}/>
                 <LessonCards img={ad4} text={'A/an, plurals – singular and plural forms'} path={''} />
                 <LessonCards img={ad5} text={'Adjectives – old, interesting, expensive, etc.'} path={''} />
