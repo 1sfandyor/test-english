@@ -34,7 +34,7 @@ import u31 from '../../assets/grammar/upper-intermediate/u31.webp'
 import u32 from '../../assets/grammar/upper-intermediate/u32.webp'
 import u33 from '../../assets/grammar/upper-intermediate/u33.webp'
 import u34 from '../../assets/grammar/upper-intermediate/u34.webp'
-import e36 from '../../assets/grammar/elementary/e36.webp'
+import e36 from '../../assets/grammar/elementary/banners/e36.webp'
 
 export default function UpperIntermediate() {
   return (

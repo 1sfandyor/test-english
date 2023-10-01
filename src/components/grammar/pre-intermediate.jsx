@@ -38,7 +38,7 @@ import p36 from '../../assets/grammar/pre-intermediate/p36.webp'
 import p37 from '../../assets/grammar/pre-intermediate/p37.webp'
 import p38 from '../../assets/grammar/pre-intermediate/p38.webp'
 import p39 from '../../assets/grammar/pre-intermediate/p39.webp'
-import e36 from '../../assets/grammar/elementary/e36.webp'
+import e36 from '../../assets/grammar/elementary/banners/e36.webp'
 
 export default function PreIntermediate() {
   return (

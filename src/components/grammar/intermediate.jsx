@@ -40,7 +40,7 @@ import i2929 from '../../assets/grammar/intermediate/i2929.webp'
 import i3030 from '../../assets/grammar/intermediate/i3030.webp'
 import i3131 from '../../assets/grammar/intermediate/i3131.webp'
 import i4040 from '../../assets/grammar/intermediate/i4040.webp'
-import e36 from '../../assets/grammar/elementary/e36.webp'
+import e36 from '../../assets/grammar/elementary/banners/e36.webp'
 
 export default function Intermediate() {
   return (

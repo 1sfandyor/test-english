@@ -29,7 +29,7 @@ import ad26 from '../../assets/grammar/pre-advanced/ad26.jpg'
 import ad99 from '../../assets/grammar/pre-advanced/ad99.webp'
 import ad1010 from '../../assets/grammar/pre-advanced/ad1010.webp'
 import ad1111 from '../../assets/grammar/pre-advanced/ad1111.webp'
-import e36 from '../../assets/grammar/elementary/e36.webp'
+import e36 from '../../assets/grammar/elementary/banners/e36.webp'
 
 export default function PreAdvanced() {
   return (
