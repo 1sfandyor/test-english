@@ -40,9 +40,9 @@ import ExmUpperIntermediate from './components/exams/upper-intermediate'
 import ExmPreAdvanced from './components/exams/pre-advanced'
 import ToBe from "./components/grammar-topics/elementary/to-be"
 import ThisThatThose from "./components/grammar-topics/elementary/this"
-import PossiveAdjactives from "./components/grammar-topics/elementary/possive-adjactives"
+import PossessiveAdjectives from "./components/grammar-topics/elementary/possessive-adjectives"
 import Plurals from "./components/grammar-topics/elementary/a-an"
-import Adjactives from "./components/grammar-topics/elementary/adjectives"
+import Adjectives from "./components/grammar-topics/elementary/adjectives"
 import PresentSimple from "./components/grammar-topics/elementary/present-simple"
 import Questions from "./components/grammar-topics/elementary/questions"
 import Adverbes from "./components/grammar-topics/elementary/adverbes"
@@ -147,9 +147,9 @@ function App() {
         <Route path="/exams/toefl-ibt" element={<ExmPreAdvanced />} />
         <Route path="/grammar/a1/to-be" element={<ToBe />} />
         <Route path="/grammar/a1/this-that-these-those" element={<ThisThatThose />} />
-        <Route path="/grammar/a1/possive-adjectives" element={<PossiveAdjactives />} />
+        <Route path="/grammar/a1/possessive-adjectives" element={<PossessiveAdjectives />} />
         <Route path="/grammar/a1/a-an-plurals" element={<Plurals />} />
-        <Route path="/grammar/a1/adjectives" element={<Adjactives />} />
+        <Route path="/grammar/a1/adjectives" element={<Adjectives />} />
         <Route path="/grammar/a1/present-simple" element={<PresentSimple />} />
         <Route path="/grammar/a1/questions" element={<Questions />} />
         <Route path="/grammar/a1/adverbs-frequency" element={<Adverbes />} />
