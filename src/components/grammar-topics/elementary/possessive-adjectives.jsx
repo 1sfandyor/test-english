@@ -200,7 +200,7 @@ export default function ThisThatThose() {
 
           {/* EXPLANATIONS */}
           <div className={`my-10 ${hidden}`}>
-            <h2 className='text-[1.6rem] font-bold py-[10px] my-5 text-[#1a8ec1]'>Possessive adjective-lar va subject pronoun-lar</h2>
+            <h2 className='text-[1.6rem] py-[10px] my-5 text-[#1a8ec1]'>Possessive adjective-lar va subject pronoun-lar</h2>
 
             <div className='w-[55%]'>
               <img className='w-[100%]' src={pic} alt="..." />
@@ -211,45 +211,45 @@ export default function ThisThatThose() {
 
               {/* USE */}
               <h2 className='text-[1.6rem] font-bold text-[#1a8ec1] mb-5'>Foydalanish</h2>
-              <h2 className='text-[1.6rem] text-[#1a8ec1] mb-3'><b>I</b> + verb - <b>my</b> + noun</h2>
-              <p className='text-[20px] mb-4'>Biz <b>subject pronoun + verb</b> va <b>possessive adjective + noun</b>dan foydalanamiz.</p>
+              <h4 className='text-[1.2em] text-[#1a8ec1] mb-3'><b>I</b> + verb - <b>my</b> + noun</h4>
+              <p className='text-[1.1em] mb-4'>Biz <b>subject pronoun + verb</b> va <b>possessive adjective + noun</b>dan foydalanamiz.</p>
 
-              <ul className='list-disc pl-5 text-[20px] mb-[70px]'>
+              <ul className='list-disc pl-5 text-[1.1em] mb-[70px]'>
                 <li><i>These are Susan and Thomas; <span className='text-[#ec6825]'><b>they</b></span> are from Ohio. And that’s <span className='text-[#ec6825]'><b>their</b></span> house</i></li>
                 <li><i><span className='text-[#ec6825]'><b>I</b></span> love <span className='text-[#ec6825]'><b>my</b></span> friend Sheila. </i></li>
               </ul>
 
               {/* possessive adjective are always singular */}
-              <h2 className='text-[1.6rem] text-[#1a8ec1]'>Possessive adjective-lar har doim birlik shaklda bo'ladi</h2>
-              <p className='text-[20px] mb-4'>Ingliz tilida adjective-larning ko'plik shakli yo'q. Possessive adjective-lar har doim birlik shaklda bo'ladi</p>
+              <h4 className='text-[1.2em] text-[#1a8ec1]'>Possessive adjective-lar har doim birlik shaklda bo'ladi</h4>
+              <p className='text-[1.1em] mb-4'>Ingliz tilida adjective-larning ko'plik shakli yo'q. Possessive adjective-lar har doim birlik shaklda bo'ladi</p>
 
-              <ul className='list-disc pl-5 text-[20px] mb-[70px]'>
+              <ul className='list-disc pl-5 text-[1.1em] mb-[70px]'>
                 <li><i>These are <b className='text-[#ec6825]'>their </b>suitcases. (NOT <del>theirs suitcases</del>) </i></li>
               </ul>
 
               {/* With a noun or without a noun */}
-              <h2 className='text-[1.6rem] text-[#1a8ec1]'><b>it/its</b> narsalar uchun va <b>they/their</b> odamlar yoki narsalar uchun ishlatiladi.</h2>
-              <p className='text-[20px] mb-4'>Biz <b>he-his</b>ni va <b>she-her</b>ni insonlar uchun va <b>it-its</b>ni narsalar uchun ishlatamiz. Ammo ko'plikda <b>they-their</b>ni odamlar uchun ham narsalar uchun ham ishlatamiz.</p>
+              <h4 className='text-[1.2em] text-[#1a8ec1]'><b>it/its</b> narsalar uchun va <b>they/their</b> odamlar yoki narsalar uchun ishlatiladi.</h4>
+              <p className='text-[1.1em] mb-4'>Biz <b>he-his</b>ni va <b>she-her</b>ni insonlar uchun va <b>it-its</b>ni narsalar uchun ishlatamiz. Ammo ko'plikda <b>they-their</b>ni odamlar uchun ham narsalar uchun ham ishlatamiz.</p>
 
-              <ul className='list-disc pl-5 text-[20px] mb-[70px]'>
+              <ul className='list-disc pl-5 text-[1.1em] mb-[70px]'>
                 <li><i>The hotel has <b className='text-[#ec6825]'>its</b> own spa. <b className='text-[#ec6825]'>It</b> is a relaxing place.</i></li>
                 <li><i>I like those chairs, <b className='text-[#ec6825]'>they</b> are beautiful. But <b className='text-[#ec6825]'>their</b> legs are too long.</i></li>
               </ul>
 
               {/* it’s for time and weather */}
-              <h2 className='text-[1.6rem] text-[#1a8ec1]'>Vaqt va ob havoni ifodalashda <b>it's</b> dan foydalanamiz</h2>
-              <p className='text-[20px] mb-4'>Biz <b>it’s (=it is)</b>ni vaqt yoki ob havo haqida gapirayotganimizda ishlatamiz.</p>
+              <h4 className='text-[1.2em] text-[#1a8ec1]'>Vaqt va ob havoni ifodalashda <b>it's</b> dan foydalanamiz</h4>
+              <p className='text-[1.1em] mb-4'>Biz <b>it’s (=it is)</b>ni vaqt yoki ob havo haqida gapirayotganimizda ishlatamiz.</p>
 
-              <ul className='list-disc pl-5 text-[20px] mb-[70px]'>
+              <ul className='list-disc pl-5 text-[1.1em] mb-[70px]'>
                 <li><i><b className='text-[#ec6825]'>It's</b> very windy today, but <b className='text-[#ec6825]'>it's</b> sunny</i></li>
                 <li><i>'What time <b className='text-[#ec6825]'>is it</b> ?' <b className='text-[#ec6825]'>It is</b> three o'clock</i></li>
               </ul>
 
               {/* it’s or its */}
-              <h2 className='text-[1.6rem] text-[#1a8ec1]'><b>it's</b>mi yoki <b>it's</b>?</h2>
-              <p className='text-[20px] mb-4'><b>Its</b>= possessive adjective. <b>It’s</b> = <b>it is</b> (subject + verb <b>be</b>)</p>
+              <h4 className='text-[1.2em] text-[#1a8ec1]'><b>it's</b>mi yoki <b>it's</b>?</h4>
+              <p className='text-[1.1em] mb-4'><b>Its</b>= possessive adjective. <b>It’s</b> = <b>it is</b> (subject + verb <b>be</b>)</p>
 
-              <ul className='list-disc pl-5 text-[20px] mb-[70px]'>
+              <ul className='list-disc pl-5 text-[1.1em] mb-[70px]'>
                 <li><i>Look at that dog. <b className='text-[#ec6825]'>It's</b> beautiful. I like <b className='text-[#ec6825]'>Its</b> hair.</i></li>
               </ul>
 

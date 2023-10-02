@@ -176,7 +176,7 @@ export default function ThisThatThose() {
 
           {/* EXPLANATIONS */}
           <div className={`my-10 ${hidden}`}>
-            <h1 className='text-[1.6rem] font-bold py-[10px] my-5 text-[#1a8ec1]'>This/these= here, that/those= there</h1>
+            <h2 className='text-[1.6rem] font-bold py-[10px] my-5 text-[#1a8ec1]'>This/these= here, that/those= there</h2>
 
             <div className='w-[55%]'>
               <img className='w-[100%]' src={pic} alt="..." />
@@ -186,8 +186,8 @@ export default function ThisThatThose() {
             <div className='info my-10'>
 
               {/* THIS VA THESE */}
-              <h2 className='text-[1.6rem] font-bold text-[#1a8ec1]'>This, these</h2>
-              <p className='text-[25px] mb-4'>Biz <b>this</b> va <b>these</b>ni <b>shu yerdagi</b> (yaqin) narsalar uchun ishlatamiz. <b>This</b> birlikni va <b>these</b> ko'plikni ifodalaydi.</p>
+              <h4 className='text-[1.2em] text-[#1a8ec1]'>This, these</h4>
+              <p className='text-[1.1em] mb-4'>Biz <b>this</b> va <b>these</b>ni <b>shu yerdagi</b> (yaqin) narsalar uchun ishlatamiz. <b>This</b> birlikni va <b>these</b> ko'plikni ifodalaydi.</p>
 
               <ul className='list-disc pl-5 text-[20px] mb-[70px]'>
                 <li><i><span className='text-[#ec6825]'><b>This</b></span> is my new watch. </i></li>
@@ -195,8 +195,8 @@ export default function ThisThatThose() {
               </ul>
 
               {/* THAT VA THOSE */}
-              <h2 className='text-[1.6rem] font-bold text-[#1a8ec1]'>That, those</h2>
-              <p className='text-[25px] mb-4'>Biz <b>that</b> va <b>those</b>ni <b>u yerdagi</b> (uzoqroq) narsalar uchun ishlatamiz. <b>That</b> birlikni va <b>those</b> ko'plikni ifodalaydi.</p>
+              <h4 className='text-[1.2em] text-[#1a8ec1]'>That, those</h4>
+              <p className='text-[1.1em] mb-4'>Biz <b>that</b> va <b>those</b>ni <b>u yerdagi</b> (uzoqroq) narsalar uchun ishlatamiz. <b>That</b> birlikni va <b>those</b> ko'plikni ifodalaydi.</p>
 
               <ul className='list-disc pl-5 text-[20px] mb-[70px]'>
                 <li><i><b className='text-[#ec6825]'>That </b>man is very strange. </i></li>
@@ -204,8 +204,8 @@ export default function ThisThatThose() {
               </ul>
 
               {/* With a noun or without a noun */}
-              <h2 className='text-[1.6rem] font-bold text-[#1a8ec1]'>Noun bilan yoki noun-siz ishlatish</h2>
-              <p className='text-[25px] mb-4'>Biz <b>this, that, these, those</b> larni otlar (<b>this box, that car, etc</b> va hkz) bilan yoki otlarsiz ham ishlata olamiz</p>
+              <h4 className='text-[1.2em] text-[#1a8ec1]'>Noun bilan yoki noun-siz ishlatish</h4>
+              <p className='text-[1.1em] mb-4'>Biz <b>this, that, these, those</b> larni otlar (<b>this box, that car, etc</b> va hkz) bilan yoki otlarsiz ham ishlata olamiz</p>
 
               <ul className='list-disc pl-5 text-[20px] mb-[70px]'>
                 <li><i><b className='text-[#ec6825]'>This watch</b> is very expensive. </i></li>
@@ -215,8 +215,8 @@ export default function ThisThatThose() {
               </ul>
 
               {/* Introductions and on the phone */}
-              <h2 className='text-[1.6rem] font-bold text-[#1a8ec1]'>Bu John (tanishtiruv va telefonda)</h2>
-              <p className='text-[25px] mb-4'>Biz <b>this is</b>ni telefonda kimnidir tanishtirayotganimizda ishlatamiz</p>
+              <h4 className='text-[1.2em] text-[#1a8ec1]'>Bu John (tanishtiruv va telefonda)</h4>
+              <p className='text-[1.1em] mb-4'>Biz <b>this is</b>ni telefonda kimnidir tanishtirayotganimizda ishlatamiz</p>
 
               <ul className='list-disc pl-5 text-[20px] mb-[70px]'>
                 <li><i>Hi <b className='text-[#ec6825]'>this is</b> Tim. (Tim on the telephone)</i></li>

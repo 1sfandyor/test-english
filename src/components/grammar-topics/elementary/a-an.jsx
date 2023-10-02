@@ -178,7 +178,7 @@ export default function ThisThatThose() {
 
           {/* EXPLANATIONS */}
           <div className={`my-10 ${hidden}`}>
-            <h1 className='text-[1.6rem] py-[10px] my-5 text-[#1a8ec1]'>A/an, ko'plik – grammatika jadvali</h1>
+            <h2 className='text-[1.6rem] py-[10px] my-5 text-[#1a8ec1]'>A/an, ko'plik – grammatika jadvali</h2>
 
             <div className='w-[55%]'>
               <img className='w-[100%]' src={pic} alt="..." />
@@ -188,7 +188,7 @@ export default function ThisThatThose() {
             <div className='info my-10'>
 
               {/* A/AN */}
-              <h2 className='text-[1.6rem] font-bold text-[#1a8ec1]'>A/an</h2>
+              <h4 className='text-[1.2em] font-bold text-[#1a8ec1]'>A/an</h4>
               <p className='text-[20px] mb-4'>Biz <b>a/an</b>ni birlikdagi otlar bilan ishlatamiz.</p>
 
               <ul className='list-disc pl-5 text-[20px] mb-[35px]'>
@@ -225,19 +225,19 @@ export default function ThisThatThose() {
               {/* Plural in english */}
               <h1 className='text-[1.6rem] font-bold text-[#1a8ec1]'>Ingliz tilida ko'pliklar</h1>
 
-              <h2 className='text-[1.6rem] text-[#1a8ec1]'><del>A tables</del></h2>
-              <p className='text-[20px] mb-4'>Ko'plik shaklidagi otlar bilan <b>a/an</b>ni ishlatmaymiz.</p>
+              <h4 className='text-[1.2em] text-[#1a8ec1]'><del>A tables</del></h4>
+              <p className='text-[1.1em] mb-4'>Ko'plik shaklidagi otlar bilan <b>a/an</b>ni ishlatmaymiz.</p>
 
-              <ul className='list-disc pl-5 text-[20px] mb-[70px]'>
+              <ul className='list-disc pl-5 text-[1.1em] mb-[70px]'>
                 <li><i>These are <b className='text-[#ec6825]'>tables</b> (<del>a tables</del> EMAS)</i></li>
               </ul>
 
 
               {/* Regular plurals */}
-              <h2 className='text-[1.6rem] text-[#1a8ec1]'>To'g'ri shakldagi ko'pliklar</h2>
-              <p className='text-[20px] mb-4'>Ingliz tilida otlarni ko'plikka aylantirish uchun <b>'s'</b> qo'shimchasini qo'shamiz. Ba'zida <b>-es</b>, <b>-ies</b> yoki <b>-ves</b> qo'shimchalarini ham qo'shishimiz kerak bo'lib qoladi.</p>
+              <h4 className='text-[1.2em] text-[#1a8ec1]'>To'g'ri shakldagi ko'pliklar</h4>
+              <p className='text-[1.1em] mb-4'>Ingliz tilida otlarni ko'plikka aylantirish uchun <b>'s'</b> qo'shimchasini qo'shamiz. Ba'zida <b>-es</b>, <b>-ies</b> yoki <b>-ves</b> qo'shimchalarini ham qo'shishimiz kerak bo'lib qoladi.</p>
 
-              <ul className='list-disc pl-5 text-[20px] mb-[70px]'>
+              <ul className='list-disc pl-5 text-[1.1em] mb-[70px]'>
                 <li><i>The <b className='text-[#ec6825]'>cats</b> are playing in the garden.</i></li>
                 <li><i>The <b className='text-[#ec6825]'>buses</b> are parked at the station.</i></li>
                 <li><i>The <b className='text-[#ec6825]'>babies</b> are sleeping peacefully.</i></li>
@@ -245,7 +245,7 @@ export default function ThisThatThose() {
               </ul>
 
               {/* Irregular plurals */}
-              <h2 className='text-[1.6rem] text-[#1a8ec1]'>Noto'g'ri shakldagi ko'pliklar</h2>
+              <h4 className='text-[1.2em] text-[#1a8ec1]'>Noto'g'ri shakldagi ko'pliklar</h4>
               <p className='text-[20px] mb-4'>Ba'zi so'zlarda noto'g'ri shakldagi ko'pliklar bo'ladi va ularni ko'plikka aylantirish uchun <b>'s</b> qo'shimchasi qo'shilmaydi</p>
 
               <ul className='list-disc pl-5 text-[20px] mb-[70px]'>
