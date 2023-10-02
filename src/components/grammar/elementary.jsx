@@ -45,7 +45,7 @@ export default function Elementary() {
             <div className='card-wrapper flex justify-around items-center flex-wrap gap-y-5 pb-[20px]'>
                 <LessonCards img={e1} text={"'To be' ning Present Simple shakli – am/is/are"} path={'grammar/a1/to-be'}/>
                 <LessonCards img={e2} text={"This, that, these, those"} path={'grammar/a1/this-that-these-those'}/>
-                <LessonCards img={e3} text={'Possessive adjective-lar va subject pronoun-lar (I/my, you/your, etc.)'} path={'grammar/a1/possive-adjectives'}/>
+                <LessonCards img={e3} text={'Possessive adjective-lar va subject pronoun-lar (I/my, you/your, etc.)'} path={'grammar/a1/possessive-adjectives'}/>
                 <LessonCards img={e4} text={'A/an, ko\'plik – birlik va ko\'plik shakli'} path={'grammar/a1/a-an-plurals'} />
                 <LessonCards img={e5} text={'Adjective-lar – old, interesting, expensive, etc.'} path={'grammar/a1/adjectives'} />
                 <LessonCards img={e6} text={"Present simple – I do, I don't, Do I?"} path={'grammar/a1/present-simple'} />
