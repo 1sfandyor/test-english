@@ -211,7 +211,7 @@ export default function ThisThatThose() {
               {/* Now, these days, at the moment, etc. */}
               <h4 className='text-[1.2em] text-[#1a8ec1] font-bold'>Now, these days, at the moment, va hkz.</h4>
 
-              <p className='text-[1.1em] font-regular mb-4'>Biz "hozir" yoki "shu yaqinda" degan ma'noni anglatuvchi vaqt iboralarini Present Continuous bilan ishlatamiz. Masalan: <b>now, at the moment, at present, today, these days, this week, va hokazo</b></p>
+              <p className='text-[1.1em] font-regular mb-4'>Biz "hozir" yoki "shu yaqinda" degan ma'noni anglatuvchi vaqt iboralarini Present Continuous bilan ishlatamiz. Masalan: <b>now, at the moment, at present, today, these days, this week, va hokazo</b>.</p>
             </div>
           </div>
         </div>
