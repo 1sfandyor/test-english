@@ -45,7 +45,7 @@ import Plurals from "./components/grammar-topics/elementary/a-an"
 import Adjectives from "./components/grammar-topics/elementary/adjectives"
 import PresentSimple from "./components/grammar-topics/elementary/present-simple"
 import Questions from "./components/grammar-topics/elementary/questions"
-import Adverbes from "./components/grammar-topics/elementary/adverbes"
+import Adverbs from "./components/grammar-topics/elementary/adverbs"
 import ObjectPronouns from "./components/grammar-topics/elementary/object-pronouns"
 import WhosePossessive from "./components/grammar-topics/elementary/whose-possessive"
 import AtInOnTime from "./components/grammar-topics/elementary/at-in-on-time"
@@ -152,7 +152,7 @@ function App() {
         <Route path="/grammar/a1/adjectives" element={<Adjectives />} />
         <Route path="/grammar/a1/present-simple" element={<PresentSimple />} />
         <Route path="/grammar/a1/questions" element={<Questions />} />
-        <Route path="/grammar/a1/adverbs-frequency" element={<Adverbes />} />
+        <Route path="/grammar/a1/adverbs-frequency" element={<Adverbs />} />
         <Route path="/grammar/a1/object-pronouns" element={<ObjectPronouns />} />
         <Route path="/grammar/a1/whose-possessive-s" element={<WhosePossessive />} />
         <Route path="/grammar/a1/at-in-on-prepositions-time" element={<AtInOnTime />} />
