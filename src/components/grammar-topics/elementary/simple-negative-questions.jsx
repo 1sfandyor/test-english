@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
-import pic from '../../../assets/grammar/elementary/topics/Past-simple_form.jpg'
+import pic from '../../../assets/grammar/elementary/topics/past-simple_form.jpg'
 import pic2 from '../../../assets/grammar/elementary/topics/Past-simple-questions.jpg'
 
 export default function ThisThatThose() {
@@ -200,9 +200,12 @@ export default function ThisThatThose() {
 
               
               {/* Savollardagi so'zlarning tartibi*/}
-              <h4 className='text-[1.2em] text-[#1a8ec1] mb-2'>Savollardagi so'zlarning tartibi</h4>
-              <p className='text-[1.1em] font-regular mb-4'><b><a className='text-[#1a8ec1]' href="./questions">Savollarda so'zlarning tartibi</a></b> <b>QWASI</b>(QWASI)  ekanligini eslab qoling: (Question Word), Auxiliary (did), Subject, Infinitive.</p>
+              <h4 className='text-[1.2em] text-[#1a8ec1] mb-5'>Savollardagi so'zlarning tartibi</h4>
+              <p className='text-[1.1em] font-regular mb-4'><b><a className='text-[#1a8ec1]' href="./questions">Savollarda so'zlarning tartibi</a></b> <b>QWASI</b>  ekanligini eslab qoling: (Question Word), Auxiliary (did), Subject, Infinitive.</p>
 
+              <div className='w-[55%]'>
+                <img className='w-[100%]' src={pic2} alt="..." />
+              </div>
 
               {/* Infinitive without to */}
               <h4 className='text-[1.2em] text-[#1a8ec1] '><b>to</b> qo'shimchasisiz </h4>
