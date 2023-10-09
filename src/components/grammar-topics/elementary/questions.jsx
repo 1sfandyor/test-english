@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import pic from '../../../assets/grammar/elementary/topics/Present-simple-questions.png'
-import pic2 from '../../../assets/grammar/elementary/topics/Question-words-A1_new.png'
+import pic2 from '../../../assets/grammar/elementary/topics/Question-words-a1_new.png'
 
 export default function ThisThatThose() {
 
