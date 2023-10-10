@@ -49,7 +49,7 @@ export default function ToBe() {
             </div>
             <h1 className='text-[25px] py-[10px] my-5 text-[#1a8ec1]'>At, in, on - vaqt predloglari </h1>
             <h1 className='text-[25px] py-[10px] my-5 text-[#1a8ec1]'>1- MASHQLAR</h1>
-            <p className='bg-[#dbdbdb88] border-2 border-s border-black p-3 inline-block rounded-[10px] font-bold'>Quyidagi gaplarni to'ldirish uchun <i>at, in, on</i>-ni tanlang tanlang.</p>
+            <p className='bg-[#dbdbdb88] border-2 border-s border-black p-3 inline-block rounded-[10px] font-bold'>Quyidagi gaplarni to'ldirish uchun <i>at, in, on</i>-ni tanlang.</p>
 
             {/* Question 1 */}
             <div className='flex my-5 items-center gap-3'>
