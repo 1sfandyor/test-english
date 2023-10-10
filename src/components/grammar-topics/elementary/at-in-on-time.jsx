@@ -1,7 +1,6 @@
 import React, { useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
-import tobe from '../../../assets/grammar/elementary/topics/present-simple-of-tobe.webp'
-import tobe2 from '../../../assets/grammar/elementary/topics/different-uses-of-be.webp'
+import tobe from '../../../assets/grammar/elementary/topics/at-in-on_time.webp'
 
 export default function ToBe() {
 
@@ -28,8 +27,7 @@ export default function ToBe() {
   return (
     <>
       <main>
-        <h1 className='text-center text-white text-[25px] font-bold py-[10px] my-5 bg-[#1a8ec1]'>‘TO BE’ NING PRESENT SIMPLE SHAKLI – AM/IS/ARE
-</h1>
+        <h1 className='text-center text-white text-[25px] font-bold py-[10px] my-5 bg-[#1a8ec1]'> At, in, on – vaqt predloglari </h1>
         <div className='container'>
           <ul className="flex border-b-2 border-l-0 border-s border-gray-500 flex-wrap text-sm font-medium text-center text-gray-500 dark:border-gray-700 dark:text-gray-400">
               <li className="mr-2">
@@ -40,6 +38,7 @@ export default function ToBe() {
               </li>
           </ul>
 
+          {/* EXERCISE */}
           <div className={`my-[10px] ${hidden2}`}>
             <div className='flex items-center justify-end'>
               <p className='font-[300] text-gray-500 mr-2 text text-[25px] items-center'>MASHQLAR: </p>
@@ -48,195 +47,137 @@ export default function ToBe() {
               <Link className='bg-[#1a8ec1] mr-5 w-[50px] h-[40px] flex justify-center items-center text-white rounded-[5px]'>3</Link>
               <Link className='bg-[#1a8ec1] mr-5 w-[50px] h-[40px] flex justify-center items-center text-white rounded-[5px]'>4</Link>
             </div>
-            <h1 className='text-[25px] py-[10px] my-5 text-[#1a8ec1]'>‘TO BE’ NING PRESENT SIMPLE SHAKLI – AM/IS/ARE</h1>
+            <h1 className='text-[25px] py-[10px] my-5 text-[#1a8ec1]'>At, in, on - vaqt predloglari </h1>
             <h1 className='text-[25px] py-[10px] my-5 text-[#1a8ec1]'>1- MASHQLAR</h1>
-            <p className='bg-[#dbdbdb88] border-2 border-s border-black p-3 inline-block rounded-[10px] font-bold'>Quyidagi bo'sh joylarga "to be" ning to'g'ri present simple shaklini tanlang.</p>
+            <p className='bg-[#dbdbdb88] border-2 border-s border-black p-3 inline-block rounded-[10px] font-bold'>Quyidagi gaplarni to'ldirish uchun <i>at, in, on</i>-ni tanlang tanlang.</p>
 
             {/* Question 1 */}
             <div className='flex my-5 items-center gap-3'>
               <span className='bg-[#1a8ec1] text-white w-[30px] h-[30px] flex justify-center items-center p-5 rounded-full'>1</span>
-              <p className='text-[19px]'>A:</p>
+              <p className='text-[19px]'>See you </p>
               <select className='border-l-[1px] border-t-[1px] border-b-2 px-3 border-r-2 border-s border-[grey] bg-white'>
                 <option value=""></option>
-                <option value="is">Are</option>
-                <option value="are">Is</option>
+                <option value="is">at</option>
+                <option value="are">on</option>
+                <option value="are">in</option>
               </select>
-              <p className='text-[19px]'>you teacher?</p>
-              <p className='text-[19px]'>B: Yes, I</p>
-              <select className='border-l-[1px] border-t-[1px] border-b-2 px-3 border-r-2 border-s border-[grey] bg-white'>
-                <option value=""></option>
-                <option value="are">am</option>
-                <option value="am">are</option>
-              </select>
+              <p className='text-[19px]'>Friday</p>
             </div>
 
             {/* Question 2 */}
             <div className='flex my-5 items-center gap-3'>
               <span className='bg-[#1a8ec1] text-white w-[30px] h-[30px] flex justify-center items-center p-5 rounded-full'>2</span>
-              <p className='text-[19px]'>A:</p>
+              <p className='text-[19px]'>I brush my teeth</p>
               <select className='border-l-[1px] border-t-[1px] border-b-2 px-3 border-r-2 border-s border-[grey] bg-white'>
                 <option value=""></option>
-                <option value="is">Are</option>
-                <option value="are">Is</option>
+                <option value="is">in</option>
+                <option value="are">at</option>
+                <option value="are">on</option>
               </select>
-              <p className='text-[19px]'>your name Marcus?</p>
-              <p className='text-[19px]'>B: Yes, it</p>
-              <select className='border-l-[1px] border-t-[1px] border-b-2 px-3 border-r-2 border-s border-[grey] bg-white'>
-                <option value=""></option>
-                <option value="are">is</option>
-                <option value="am">are</option>
-              </select>
+              <p className='text-[19px]'>the morning.</p>
             </div>
 
             {/* Question 3 */}
             <div className='flex my-5 items-center gap-3'>
               <span className='bg-[#1a8ec1] text-white w-[30px] h-[30px] flex justify-center items-center p-5 rounded-full'>3</span>
-              <p className='text-[19px]'>A:</p>
+              <p className='text-[19px]'>The match is</p>
               <select className='border-l-[1px] border-t-[1px] border-b-2 px-3 border-r-2 border-s border-[grey] bg-white'>
                 <option value=""></option>
-                <option value="is">Are</option>
-                <option value="are">Am</option>
+                <option value="is">on</option>
+                <option value="are">in</option>
+                <option value="are">at</option>
               </select>
-              <p className='text-[19px]'>your children here?</p>
-              <p className='text-[19px]'>B: No, they </p>
-              <select className='border-l-[1px] border-t-[1px] border-b-2 px-3 border-r-2 border-s border-[grey] bg-white'>
-                <option value=""></option>
-                <option value="are">aren't</option>
-                <option value="am">isn't</option>
-              </select>
+              <p className='text-[19px]'>4 o'clock.</p>
             </div>
 
             {/* Question 4 */}
             <div className='flex my-5 items-center gap-3'>
               <span className='bg-[#1a8ec1] text-white w-[30px] h-[30px] flex justify-center items-center p-5 rounded-full'>4</span>
-              <p className='text-[19px]'>A:</p>
+              <p className='text-[19px]'>We have lunch </p>
               <select className='border-l-[1px] border-t-[1px] border-b-2 px-3 border-r-2 border-s border-[grey] bg-white'>
                 <option value=""></option>
-                <option value="is">Are</option>
-                <option value="are">Is</option>
+                <option value="is">at</option>
+                <option value="are">on</option>
+                <option value="are">in</option>
               </select>
-              <p className='text-[19px]'>this your suitcase?</p>
-              <p className='text-[19px]'>B: No, it </p>
-              <select className='border-l-[1px] border-t-[1px] border-b-2 px-3 border-r-2 border-s border-[grey] bg-white'>
-                <option value=""></option>
-                <option value="are">isn't</option>
-                <option value="am">aren't</option>
-              </select>
+              <p className='text-[19px]'>midday.</p>
             </div>
 
             {/* Question 5 */}
             <div className='flex my-5 items-center gap-3'>
               <span className='bg-[#1a8ec1] text-white w-[30px] h-[30px] flex justify-center items-center p-5 rounded-full'>5</span>
-              <p className='text-[19px]'>A: Where</p>
+              <p className='text-[19px]'> I'm busy </p>
               <select className='border-l-[1px] border-t-[1px] border-b-2 px-3 border-r-2 border-s border-[grey] bg-white'>
                 <option value=""></option>
-                <option value="is">is</option>
-                <option value="am">am</option>
-                <option value="are">are</option>
+                <option value="is">on</option>
+                <option value="am">at</option>
+                <option value="are">in</option>
               </select>
-              <p className='text-[19px]'>we?</p>
-              <p className='text-[19px]'>B: I think this</p>
-              <select className='border-l-[1px] border-t-[1px] border-b-2 px-3 border-r-2 border-s border-[grey] bg-white'>
-                <option value=""></option>
-                <option value="are">is</option>
-                <option value="am">are</option>
-              </select>
-              <p className='text-[19px]'>Oxford street</p>
+              <p className='text-[19px]'>the moment.</p>
             </div>
 
             {/* Question 6 */}
             <div className='flex my-5 items-center gap-3'>
               <span className='bg-[#1a8ec1] text-white w-[30px] h-[30px] flex justify-center items-center p-5 rounded-full'>6</span>
-              <p className='text-[19px]'>A:</p>
+              <p className='text-[19px]'>My parents always visit me </p>
               <select className='border-l-[1px] border-t-[1px] border-b-2 px-3 border-r-2 border-s border-[grey] bg-white'>
                 <option value=""></option>
-                <option value="is">Is</option>
-                <option value="are">Are</option>
+                <option value="is">in</option>
+                <option value="are">at</option>
+                <option value="are">on</option>
               </select>
-              <p className='text-[19px]'>it Saturday today?</p>
-              <p className='text-[19px]'>B: No, It </p>
-              <select className='border-l-[1px] border-t-[1px] border-b-2 px-3 border-r-2 border-s border-[grey] bg-white'>
-                <option value=""></option>
-                <option value="are">'re</option>
-                <option value="am">'s</option>
-              </select>
-              <p className='text-[19px]'>Sunday</p>
+              <p className='text-[19px]'>my birthday.</p>
             </div>
 
             {/* Question 7 */}
             <div className='flex my-5 items-center gap-3'>
               <span className='bg-[#1a8ec1] text-white w-[30px] h-[30px] flex justify-center items-center p-5 rounded-full'>7</span>
-              <p className='text-[19px]'>A:</p>
+              <p className='text-[19px]'> He was born </p>
               <select className='border-l-[1px] border-t-[1px] border-b-2 px-3 border-r-2 border-s border-[grey] bg-white'>
                 <option value=""></option>
-                <option value="is">Is</option>
-                <option value="are">Are</option>
+                <option value="is">in</option>
+                <option value="are">on</option>
+                <option value="are">at</option>
               </select>
-              <p className='text-[19px]'>your friends from the UK?</p>
-              <p className='text-[19px]'>B: No</p>
-              <select className='border-l-[1px] border-t-[1px] border-b-2 px-3 border-r-2 border-s border-[grey] bg-white'>
-                <option value=""></option>
-                <option value="are">he is</option>
-                <option value="am">they are</option>
-              </select>
-              <p className='text-[19px]'>from the US.</p>
+              <p className='text-[19px]'>the 19th century.</p>
             </div>
 
             {/* Question 8 */}
             <div className='flex my-5 items-center gap-3'>
               <span className='bg-[#1a8ec1] text-white w-[30px] h-[30px] flex justify-center items-center p-5 rounded-full'>8</span>
-              <p className='text-[19px]'>A: Hello, Maria. How </p>
+              <p className='text-[19px]'>He usually goes on holiday </p>
               <select className='border-l-[1px] border-t-[1px] border-b-2 px-3 border-r-2 border-s border-[grey] bg-white'>
                 <option value=""></option>
-                <option value="is">are</option>
-                <option value="are">am</option>
+                <option value="is">in</option>
+                <option value="are">at</option>
+                <option value="are">on</option>
               </select>
-              <p className='text-[19px]'>you?</p>
-              <p className='text-[19px]'>B:</p>
-              <select className='border-l-[1px] border-t-[1px] border-b-2 px-3 border-r-2 border-s border-[grey] bg-white'>
-                <option value=""></option>
-                <option value="are">I are</option>
-                <option value="am">I'm</option>
-              </select>
-              <p className='text-[19px]'>fine, thanks.</p>
+              <p className='text-[19px]'>July</p>
             </div>
 
             {/* Question 9 */}
             <div className='flex my-5 items-center gap-3'>
               <span className='bg-[#1a8ec1] text-white w-[30px] h-[30px] flex justify-center items-center p-5 rounded-full'>9</span>
-              <p className='text-[19px]'>A: How old </p>
+              <p className='text-[19px]'>They always get together </p>
               <select className='border-l-[1px] border-t-[1px] border-b-2 px-3 border-r-2 border-s border-[grey] bg-white'>
                 <option value=""></option>
-                <option value="is">is</option>
-                <option value="are">are</option>
+                <option value="is">at</option>
+                <option value="are">on</option>
+                <option value="are">in</option>
               </select>
-              <p className='text-[19px]'>Peter ?</p>
-              <p className='text-[19px]'>B: I think</p>
-              <select className='border-l-[1px] border-t-[1px] border-b-2 px-3 border-r-2 border-s border-[grey] bg-white'>
-                <option value=""></option>
-                <option value="are">he is</option>
-                <option value="am">it is</option>
-              </select>
-              <p className='text-[19px]'>30 years old.</p>
+              <p className='text-[19px]'>Christmas?</p>
             </div>
  
             {/* Question 10 */}
             <div className='flex my-5 items-center gap-3'>
               <span className='bg-[#1a8ec1] text-white w-[30px] h-[30px] flex justify-center items-center p-5 rounded-full'>10</span>
-              <p className='text-[19px]'>A:</p>
+              <p className='text-[19px]'>You can come </p>
               <select className='border-l-[1px] border-t-[1px] border-b-2 px-3 border-r-2 border-s border-[grey] bg-white'>
                 <option value=""></option>
-                <option value="is">Is</option>
-                <option value="are">Are</option>
+                <option value="is">at</option>
+                <option value="are">in</option>
               </select>
-              <p className='text-[19px]'>David and Molly here?</p>
-              <p className='text-[19px]'>B: Yes</p>
-              <select className='border-l-[1px] border-t-[1px] border-b-2 px-3 border-r-2 border-s border-[grey] bg-white'>
-                <option value=""></option>
-                <option value="are">we're</option>
-                <option value="am">they're</option>
-              </select>
-              <p className='text-[19px]'>next to the door.</p>
+              <p className='text-[19px]'>the weekend</p>
             </div>
 
             <button className='py-2 px-5 bg-[#1a8ec1] flex justify-center items-center text-white mx-auto rounded-[10px] my-10'>
@@ -244,94 +185,87 @@ export default function ToBe() {
             </button>
           </div>
 
+
+          {/* EXPLANATION */}
           <div className={`my-10 ${hidden}`}>
-            <h1 className='text-[30px] py-[10px] my-5 text-[#1a8ec1]'><b><i>be</i> ning Present Simple shakli</b></h1>
+            <h1 className='text-[30px] py-[10px] my-5 text-[#1a8ec1]'><b><i>At, in, on -</i> vaqt predloglar</b></h1>
 
             <div className='w-[55%]'>
               <img className='w-[100%]' src={tobe} alt="..." />
             </div>
 
             <div className='info my-10'>
-              <p className='text-[25px] mb-5'><b>be</b> fe'lining Present Simple-da 3 ta shakli bor:</p>
+
+              {/* AT */}
+              <p className='text-[1.1em] font-regular mb-4'>➪ Mealtimes, bedtime va shu kabi kunning ma'lum bir vaqtlarini ifodalashda <b>at</b>-dan foydalaning.</p>
 
               <ul className='list-disc pl-5 text-[20px] mb-5'>
-                <li><i>I <span className='text-[#ec6825]'><b>am</b></span></i></li>
-                <li><i>He/She/It <span className='text-[#ec6825]'><b>is</b></span></i></li>
-                <li><i>we/You/They <span className='text-[#ec6825]'><b>are</b></span></i></li>
+                <li><i><span className='text-[#ec6825]'><b>at</b> </span> o’clock</i></li>
+                <li><i><span className='text-[#ec6825]'><b>at</b> </span> 10.30 am</i></li>
+                <li><i><span className='text-[#ec6825]'><b>at</b> </span> noon</i></li>
+                <li><i><span className='text-[#ec6825]'><b>at</b> </span> dinnertime</i></li>
+                <li><i><span className='text-[#ec6825]'><b>at</b> </span> bedtime</i></li>
+                <li><i><span className='text-[#ec6825]'><b>at</b> </span> sunrise</i></li>
+                <li><i><span className='text-[#ec6825]'><b>at</b> </span> sunset</i></li>
+                <li><i><span className='text-[#ec6825]'><b>at</b> </span> the moment</i></li>
               </ul>
 
-              <h1 className='text-[30px] py-[10px] my-5 text-[#1a8ec1]'><b>they</b>= odamlar va narsalar</h1>
-
-              <p className='text-[25px] mb-5'>Biz <b>he</b>-ni erkaklar uchun, <b>she</b>-ni ayollar uchun, va <b>it</b>-ni narsalar uchun ishlatamiz.</p>
+              {/* IN */}
+              <p className='text-[1.1em] font-regular mb-4'>➪ Oylar, fasllar, yillar, asrlar va umuman uzoq muddatlarni ifodalashda <b>in</b> dan foydalaning.</p>
 
               <ul className='list-disc pl-5 text-[20px] mb-5'>
-                <li><i><b className='text-[#ec6825]'>He</b>'s little boy</i></li>
-                <li><i><b className='text-[#ec6825]'>She</b>'s beautiful</i></li>
-                <li><i>I like this TV. <span className='text-[#ec6825]'><b>It's</b></span> very big</i></li>
+                <li><i><span className='text-[#ec6825]'><b>in</b></span> May</i></li>
+                <li><i><span className='text-[#ec6825]'><b>in</b></span> the summer</i></li>
+                <li><i><span className='text-[#ec6825]'><b>in</b></span> 1990</i></li>
+                <li><i><span className='text-[#ec6825]'><b>in</b></span> the 1990s</i></li>
+                <li><i><span className='text-[#ec6825]'><b>in</b></span> the 20th century</i></li>
+                <li><i><span className='text-[#ec6825]'><b>in</b></span> the Ice Age</i></li>
+                <li><i><span className='text-[#ec6825]'><b>in</b></span> the past/future</i></li>
               </ul>
 
-              <p className='text-[25px] mb-5'>Biz <b>they</b>-ni odamlar va narsalar uchun foydalanamiz.</p>
-
-              <ul className='list-disc pl-5 text-[20px] mb-5'>
-                <li><i>I love Sara and Jonas. <span className='text-[#ec6825]'><b>They</b></span> are my friend</i></li>
-                <li><i>I love these chairs. <span className='text-[#ec6825]'><b>They</b></span> are very beautiful</i></li>
-              </ul>
-
-              <h1 className='text-[30px] py-[10px] my-5 text-[#1a8ec1]'>Subject-ni unutib qoldirmang</h1>
-
-              <p className='text-[25px] mb-5'>Biz <b>they</b>-ni odamlar va narsalar uchun foydalanamiz.</p>
-
-              <ul className='list-disc pl-5 text-[20px] mb-5'>
-                <li>It is cold. (NOT<del> Is cold.)</del></li>
-                <li>Sally is a wonderful woman. (NOT<del> s a wonderful woman.)</del></li>
-              </ul>
-
-              <h1 className='text-[30px] py-[10px] my-5 text-[#1a8ec1]'>Qisqartmalar yoki qisqa shakllari</h1>
-
-              <p className='text-[25px] mb-5'>Biz <b>‘m,</b> <b>‘s</b> va <b>‘re</b>-ni (<b>I, you, he, va hkz.</b>) kabi kishilik olmoshlari uchun ishlatamiz </p>
-
-              <ul className='list-disc pl-5 text-[20px] mb-5'>
-                <li><i><b className='text-[#ec6825]'>I'm</b> sad</i></li>
-                <li><i><b className='text-[#ec6825]'>You're</b> tired</i></li>
-                <li><i><b className='text-[#ec6825]'>She's</b> from Scotland</i></li>
-              </ul>
-
-              <p className='text-[25px] mb-5'>Ammo <b>‘s</b> ni ismlar bilan ham ishlata olamiz.</p>
-
-              <ul className='list-disc pl-5 text-[20px] mb-5'>
-                <li><i><b className='text-[#ec6825]'>Laura’s </b> beautiful</i></li>
-                <li><i><b className='text-[#ec6825]'>London’s </b> an expensive city. </i></li>
-              </ul>
-
-              <h1 className='text-[30px] py-[10px] my-5 text-[#1a8ec1]'>Qisqartmalar yoki qisqa shakllari</h1>
-
-              <p className='text-[25px] mb-5'>Biz <b>qisqartmalarni</b> faqatgina <b>inkor shakldagi qisqa javoblarda</b> ishlata olamiz. Darak gap shaklidagi qisqa javoblarda emas.</p>
-
-              <ul className='list-disc pl-5 text-[20px] mb-5'>
-                <li>Yes, <b className='text-[#ec6825]'>I am</b>. (NOT<del> Yes, I'm.)</del></li>
-                <li>Yes, She <b className='text-[#ec6825]'>is</b>. (NOT<del> Yes, She's.)</del></li>
-                <li>Yes, They <b className='text-[#ec6825]'>are</b>. (NOT<del> Yes, They're.)</del></li>
-              </ul>
-
-              <h1 className='text-[30px] py-[10px] my-5 text-[#1a8ec1]'><b>be</b>- present simple-da foydalanilishi</h1>
               
-              <div className='w-[55%]'>
-                <img className='w-[100%]' src={tobe2} alt="..." />
-              </div>
-              
-              <p className='text-[25px] mb-5'>Biz quyida keltirilgan narsalar haqida gaplashayotganimizda <b>be</b> fe'lini ishlatamiz:</p>
-              
+              {/* ON */}
+              <p className='text-[1.1em] font-regular mb-4'>➪ Kunlar va sanalarda <b>on</b> dan foydalaning.</p>
+
               <ul className='list-disc pl-5 text-[20px] mb-5'>
-                <li><b>Biz kimmiz:</b> I <i className='text-[#ec6825]'>'m Steven, and this <i className='text-[#ec6825]'>is</i></i> Isabella.</li>
-                <li><b>Yoshimiz:</b> I <i className='text-[#ec6825]'>'m Steven, and this <i className='text-[#ec6825]'>is</i></i> Isabella.</li>
-                <li><b>Kasbimiz:</b> I <i className='text-[#ec6825]'>'m Steven, and this <i className='text-[#ec6825]'>is</i></i> Isabella.</li>
-                <li><b>Millatimiz:</b> I <i className='text-[#ec6825]'>'m Steven, and this <i className='text-[#ec6825]'>is</i></i> Isabella.</li>
-                <li><b>His tuyg'uyimiz:</b> I <i className='text-[#ec6825]'>'m Steven, and this <i className='text-[#ec6825]'>is</i></i> Isabella.</li>
-                <li><b>Ranglar:</b> I <i className='text-[#ec6825]'>'m Steven, and this <i className='text-[#ec6825]'>is</i></i> Isabella.</li>
-                <li><b>Narxlar:</b> I <i className='text-[#ec6825]'>'m Steven, and this <i className='text-[#ec6825]'>is</i></i> Isabella.</li>
-                <li><b>Ob havo:</b> I <i className='text-[#ec6825]'>'m Steven, and this <i className='text-[#ec6825]'>is</i></i> Isabella.</li>
-                <li><b>Vaqt:</b> I <i className='text-[#ec6825]'>'m Steven, and this <i className='text-[#ec6825]'>is</i></i> Isabella.</li>
-                <li><b>Biror bir umumiy ta'rifda:</b> I <i className='text-[#ec6825]'>'m Steven, and this <i className='text-[#ec6825]'>is</i></i> Isabella.</li>
+                <li><i><span className='text-[#ec6825]'><b>on</b></span> Sunday</i></li>
+                <li><i><span className='text-[#ec6825]'><b>on</b></span> Tuesday mornings</i></li>
+                <li><i><span className='text-[#ec6825]'><b>on</b></span> 6 March</i></li>
+                <li><i><span className='text-[#ec6825]'><b>on</b></span> 25 December 2010</i></li>
+                <li><i><span className='text-[#ec6825]'><b>on</b></span> Christmas Day</i></li>
+                <li><i><span className='text-[#ec6825]'><b>on</b></span> Independence Day</i></li>
+                <li><i><span className='text-[#ec6825]'><b>on</b></span> my birthday</i></li>
+                <li><i><span className='text-[#ec6825]'><b>on</b></span> my New Year's Eve</i></li>
+              </ul>
+
+              {/* AT */}
+              <p className='text-[1.1em] font-regular mb-4'>➪ Quyidagi umumiy iboralarda <b>at</b>-dan foydalaning.</p>
+
+              <ul className='list-disc pl-5 text-[20px] mb-5'>
+                <li><i><span className='text-[#ec6825]'><b>at</b></span> the weekend: I don’t usually work <span className='text-[#ec6825]'><b>at</b></span> the weekend.</i></li>
+                <li><i><span className='text-[#ec6825]'><b>at</b></span> Christmas/Easter: I stay with my family <span className='text-[#ec6825]'><b>at</b></span> Christmas.</i></li>
+                <li><i><span className='text-[#ec6825]'><b>at</b></span> the same time: We finished the test <span className='text-[#ec6825]'><b>at</b></span> the same time.</i></li>
+                <li><i><span className='text-[#ec6825]'><b>at</b></span> present/<span className='text-[#ec6825]'><b>at</b></span> the moment: He’s not home <span className='text-[#ec6825]'><b>at</b></span> present. Try later.</i></li>
+              </ul>
+
+              <p className='text-[1.1em] font-regular mb-4'>➪  Kunning bir qismida:</p>
+
+              <ul className='list-disc pl-5 text-[20px] mb-5'>
+                <li><i><span className='text-[#ec6825]'><b>in</b></span> the morning</i></li>
+                <li><i><span className='text-[#ec6825]'><b>in</b></span> the afternoon</i></li>
+                <li><i><span className='text-[#ec6825]'><b>in</b></span> the evening</i></li>
+                <li><i><span className='text-[#ec6825]'><b>in</b></span> the night</i></li>
+              </ul>
+
+              <h1 className='text-[30px] py-[10px] my-5 text-[#1a8ec1]'><b>Last, next, every</b> va <b>this</b></h1>
+
+              <p className='text-[1.1em] font-regular mb-4'><b>last, next, every, this</b> ni ishlatganimizda <b>at, in, on</b> dan foydalanmaymiz.</p>
+
+              <ul className='list-disc pl-5 text-[20px] mb-5'>
+                <li><i>I went to London <b className='text-[#ec6825]'>last</b> June. (<del>in last June</del> EMAS). </i></li>
+                <li><i>He’s coming back <b className='text-[#ec6825]'>next</b> Tuesday. (<del>on next Tuesday</del> EMAS). </i></li>
+                <li><i>I go home <b className='text-[#ec6825]'>every</b> Easter. (<del>at every Easter</del> EMAS). </i></li>
+                <li><i>We’ll call you <b className='text-[#ec6825]'>this</b> evening. (<del>in this evening</del>) EMAS. </i></li>
               </ul>
 
             </div>
