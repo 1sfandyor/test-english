@@ -60,7 +60,7 @@ import SimpleNegativQuestions from "./components/grammar-topics/elementary/simpl
 import VerbsIng from "./components/grammar-topics/elementary/verbs-ing"
 import HaveGot from "./components/grammar-topics/elementary/have-got"
 import WouldLike from "./components/grammar-topics/elementary/would-like"
-import CountableUncountable from "./components/grammar-topics/elementary/countble-uncountble"
+import CountableUncountable from "./components/grammar-topics/elementary/countable-uncountable"
 import There from "./components/grammar-topics/elementary/there"
 import ThereOrIt from "./components/grammar-topics/elementary/there-or-it"
 import ToWards from "./components/grammar-topics/elementary/towards"
