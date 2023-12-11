@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 export default function LessonCards({img, text, path}) {
   return (
-    <div className='card w-[350px] rounded-[15px]'>
+    <div className='card w-[350px] rounded-[15px] h-[270px]'>
         <Link to={`/${path}`}>
             <div>
                 <img className='rounded-t-[15px]' src={img} alt="" />
